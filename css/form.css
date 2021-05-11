@@ -17,15 +17,15 @@ input {
 }
 
 input::-webkit-input-placeholder { /* Edge */
-  color: #cfcfcf;
+  color: orange;
 }
 
 input::-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #cfcfcf;
+  color: orange;
 }
 
 input::placeholder {
-  color: #cfcfcf;
+  color: orange;
 }
 
 select {
@@ -54,7 +54,7 @@ button {
 }
 
 button:hover {
-  background-color: blue;
+  background-color: orange;
 }
 
 .name, .book, .phone {
