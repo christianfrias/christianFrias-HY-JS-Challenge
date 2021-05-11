@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Frias - HY JS Challenge</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="column">
+      <img src="assets/books.jpg" width="100%" height="auto">
+    </div>
+    <div class="column">
+      <div class="content">
+        <h1>It's going down for real.</h1>
+        <p class="description">Lorem ipsum, dolor sit amet consectetur adipiscing elit. Excepteuri eveniet magni ab eos consectetur sunt, eius consequatur vitae dignissimos reiciendis repellat, cupiditate qui necessitatibus voluptatibus minus
+          dolorum modi et? Nihil!</p>
+
+        <h2>About you</h2>
+        <form action="index.html" method="post">
+
+          <div class="name">
+            <div class="column">
+              <div class="input-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name" placeholder="Jane">
+              </div>
+            </div>
+            <div class="column">
+              <div class="input-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name" placeholder="Doe" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="book">
+            <div class="column">
+              <label for="bookChoice">Type of Book Choice</label>
+              <select id="bookChoice" name="book_choice">
+                <option value="hardcover">Hardcover</option>
+                <option value="paperback">Paperback</option>
+                <option value="ebook">E-Book</option>
+                <option value="audiobook">Audiobook</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="phone">
+            <div class="column">
+              <div class="input-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phone_number" placeholder="555-555-5555" maxlength="12">
+              </div>
+            </div>
+          </div>
+
+          <button type="submit">Send</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

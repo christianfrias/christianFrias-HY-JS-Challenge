@@ -1,0 +1,72 @@
+/* =================================
+  Form Styles
+==================================== */
+
+input, select {
+  font-family: 'Open Sans', sans-serif;
+  font-size:17px;
+  border-radius:5px;
+  border: 1px solid black;
+}
+
+input {
+  color:grey;
+  padding: 2px 5px;
+}
+
+input::-webkit-input-placeholder { /* Edge */
+  color: #cfcfcf;
+}
+
+input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #cfcfcf;
+}
+
+input::placeholder {
+  color: #cfcfcf;
+}
+
+select {
+  color:black;
+  width:100%;
+  padding: 0px 4px;
+}
+
+label {
+  display:block;
+  font-weight: 700;
+  line-height:1.4;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border: 0;
+  padding: 11px 30px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.name, .book, .phone {
+  display:flex;
+  margin-bottom:20px;
+}
+
+.name {
+  justify-content: space-between;
+}
+
+.name .column:first-child {
+  margin-right:20px;
+}
+
+.input-group {
+  display:flex;
+  flex-direction: column;
+}
