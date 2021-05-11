@@ -37,6 +37,9 @@ p {
 .column {
   -ms-flex: 1; /* IE 10 */
   flex: 1;
+}
+
+.col-50 {
   width:50%;
 }
 
