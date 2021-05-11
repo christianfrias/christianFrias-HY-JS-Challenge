@@ -29,6 +29,11 @@ p {
   color:grey;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .row {
   display: flex;
   width:100%;
@@ -39,7 +44,7 @@ p {
   flex: 1;
 }
 
-.col-50 {
+.w-50 {
   width:50%;
 }
 

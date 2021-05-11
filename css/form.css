@@ -15,12 +15,20 @@ input {
   padding: 2px 5px;
 }
 
-input::-webkit-input-placeholder { /* Edge */
+input::-webkit-input-placeholder {  /* Chrome/Opera/Safari */
   color: orange;
 }
 
-input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
   color: orange;
+}
+
+input::-moz-placeholder { /* Firefox 19+ */
+  color: orange;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  color: pink;
 }
 
 input::placeholder {
